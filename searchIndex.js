@@ -1,0 +1,3 @@
+function searchIndex(term, array){
+
+};
