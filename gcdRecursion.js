@@ -1,8 +1,10 @@
 function gcd(x, y){
-    if (!y) { //if y is zero, gcd is y
+//if y is zero, gcd is y
+    if (!y) { 
         return x 
 } else {
-    return gcd(y, x % y) // if y is not zero, gcd is y and remainder of x/y
+// if y is not zero, gcd is y and remainder of x/y
+    return gcd(y, x % y) 
     
 }
 }
